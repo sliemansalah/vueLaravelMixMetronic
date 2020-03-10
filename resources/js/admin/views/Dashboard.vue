@@ -25,7 +25,6 @@ export default {
       {id:'age',value:'Age'},
       {id:'email',value:'Email'},
       {id:'skills',value:'Skills'},
-      {id:'actions',value:'Actions'}
     ],
     details:
     [

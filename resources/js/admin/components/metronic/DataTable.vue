@@ -32,6 +32,7 @@
                 <thead>
                     <tr>
                         <th v-for="row in rows" :key="row.id">{{ row.value }}</th>
+                        <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -41,6 +42,7 @@
                              <i @click="edit(index)" class="fa fa-pen ml-15"></i>
                              <i @click="del(index)" class="fa fa-trash ml-15"></i>
                         </td>
+                        <td v-for="i in 4" :key="i" class="remove"></td>
                     </tr>
                 </tbody>
             </table>
@@ -86,4 +88,5 @@ methods:{
 .fa {cursor: pointer;}
 .fa-pen:hover{color: green;}
 .fa-trash:hover{color: red;}
+.remove{display: none;}
 </style>

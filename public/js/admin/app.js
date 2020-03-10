@@ -145,6 +145,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     title: String,
@@ -273,9 +275,6 @@ __webpack_require__.r(__webpack_exports__);
       }, {
         id: 'skills',
         value: 'Skills'
-      }, {
-        id: 'actions',
-        value: 'Actions'
       }],
       details: [{
         data: {
@@ -897,7 +896,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n.ml-15{ margin-left: 15px;}\n.fa {cursor: pointer;}\n.fa-pen:hover{color: green;}\n.fa-trash:hover{color: red;}\r\n", ""]);
+exports.push([module.i, "\n.ml-15{ margin-left: 15px;}\n.fa {cursor: pointer;}\n.fa-pen:hover{color: green;}\n.fa-trash:hover{color: red;}\n.remove{display: none;}\r\n", ""]);
 
 // exports
 
@@ -2066,10 +2065,14 @@ var render = function() {
           _c("thead", [
             _c(
               "tr",
-              _vm._l(_vm.rows, function(row) {
-                return _c("th", { key: row.id }, [_vm._v(_vm._s(row.value))])
-              }),
-              0
+              [
+                _vm._l(_vm.rows, function(row) {
+                  return _c("th", { key: row.id }, [_vm._v(_vm._s(row.value))])
+                }),
+                _vm._v(" "),
+                _c("th", [_vm._v("Actions")])
+              ],
+              2
             )
           ]),
           _vm._v(" "),
