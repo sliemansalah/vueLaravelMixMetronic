@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="icon" href="/favicon.ico">
     
     <!--begin::Web font -->
 		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
@@ -19,7 +19,7 @@
       <!--end::Web font -->
 
         <!--begin::Global Theme Styles -->
-        <link href="<%= BASE_URL %>/vendors/general/base-vendors/css/vendors.bundle.css" rel="stylesheet" type="text/css" />
+        <link href="/vendors/general/base-vendors/css/vendors.bundle.css" rel="stylesheet" type="text/css" />
     		<link href="/vendors/general/base-vendors/css/style.bundle.css" rel="stylesheet" type="text/css" />
     <title>Metronic Vue CLI | Admin Panel</title>
   </head>
@@ -27,8 +27,8 @@
     <div id="app">
       <layout></layout>
     </div>
-		<script src="<%= BASE_URL %>vendors/general/base-vendors/js/vendors.bundle.js" type="text/javascript"></script>
+		<script src="/vendors/general/base-vendors/js/vendors.bundle.js" type="text/javascript"></script>
     <script src="/vendors/general/base-vendors/js/scripts.bundle.js" type="text/javascript"></script>
-		<script src="{{ mix('js/admin/main.js') }}"></script>
+		<script src="{{ mix('js/admin/app.js') }}"></script>
   </body>
 </html>
