@@ -150,13 +150,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
+  props: {
+    customerFormStatus: String
+  },
   data: function data() {
     return {
       customer: {
-        name: '',
+        name: "",
         age: 0,
-        email: '',
+        email: "",
         skills: {
           angular: false,
           react: false,
@@ -167,14 +179,18 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     save: function save() {
-      this.$emit('save', this.customer);
+      this.$emit("save", this.customer);
+      this.clear();
+    },
+    update: function update() {
+      this.$emit("update", this.customer);
       this.clear();
     },
     clear: function clear() {
       this.customer = {
-        name: '',
+        name: "",
         age: 0,
-        email: '',
+        email: "",
         skills: {
           angular: false,
           react: false,
@@ -267,8 +283,11 @@ __webpack_require__.r(__webpack_exports__);
     }
   },
   methods: {
-    edit: function edit(i) {
-      this.$emit('edit', i);
+    edit: function edit(data, index) {
+      var d = [];
+      d.push(data);
+      d.push(index);
+      this.$emit('edit', d);
     },
     del: function del(i) {
       this.$emit('del', i);
@@ -307,12 +326,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 var _ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
+      customerFormStatus: 'add',
       customers: [],
+      customerID: null,
       rows: [{
         id: 'id',
         value: 'ID'
@@ -333,14 +358,52 @@ var _ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
     };
   },
   methods: {
-    edit: function edit(data) {
-      console.log(data);
+    edit: function edit(res) {
+      this.customerFormStatus = 'edit';
+      this.$refs.customerForm.clear();
+      this.fillCustomer(res[0]);
+      this.customerID = res[1];
     },
-    del: function del(data) {
-      console.log(data);
+    fillCustomer: function fillCustomer(res) {
+      this.$refs.customerForm.customer.name = res.data.name;
+      this.$refs.customerForm.customer.email = res.data.email;
+      this.$refs.customerForm.customer.age = res.data.age;
+
+      if (res.data.skills.includes("angular")) {
+        this.$refs.customerForm.customer.skills.angular = true;
+      }
+
+      if (res.data.skills.includes("vue")) {
+        this.$refs.customerForm.customer.skills.vue = true;
+      }
+
+      if (res.data.skills.includes("react")) {
+        this.$refs.customerForm.customer.skills.react = true;
+      }
+    },
+    del: function del(id) {
+      var _this = this;
+
+      swal({
+        title: "Delete Customer",
+        text: "Are you need delete customer " + id,
+        icon: "success",
+        confirmButtonText: "<span>Yes</span>",
+        showCancelButton: !0,
+        cancelButtonText: "<span>No, thanks</span>"
+      }).then(function (result) {
+        if (result.value) {
+          _this.customers.splice(id, 1);
+
+          localStorage.setItem('customers', JSON.stringify(_this.customers));
+          _this.details = _this.customers;
+          swal("Customer Remove", "Customer was removed successfully!", "info");
+        }
+      });
     },
     add: function add() {
-      console.log('add started');
+      this.customerID = null;
+      this.customerFormStatus = 'add';
       this.$refs.customerForm.clear();
     },
     addNewCustomer: function addNewCustomer(data) {
@@ -359,6 +422,23 @@ var _ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
       localStorage.setItem('customers', JSON.stringify(this.customers));
       this.details = this.customers;
       swal("Add Customer!", "Customer Added Successfully!", "success");
+    },
+    updateCustomer: function updateCustomer(data) {
+      var skills_filter = this.skillsFilter(data.skills);
+      var customer_add = {
+        data: {
+          id: 1,
+          name: data.name,
+          age: data.age,
+          email: data.email,
+          skills: skills_filter
+        }
+      };
+      this.customers = localStorage.getItem('customers') ? JSON.parse(localStorage.getItem('customers')) : [];
+      this.customers[this.customerID] = customer_add;
+      localStorage.setItem('customers', JSON.stringify(this.customers));
+      this.details = this.customers;
+      swal("Update Customer!", "Customer Updated Successfully!", "success");
     },
     skillsFilter: function skillsFilter(skills) {
       var data = "";
@@ -967,7 +1047,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n\r\n\r\n/* .modal .modal-content {\r\n  width: 700px;\r\n  right: 100px;\r\n} */\r\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n/* .modal .modal-content {\r\n  width: 700px;\r\n  right: 100px;\r\n} */\r\n", ""]);
 
 // exports
 
@@ -19267,7 +19347,27 @@ var render = function() {
           { staticClass: "modal-dialog modal-sm", attrs: { role: "document" } },
           [
             _c("div", { staticClass: "modal-content" }, [
-              _vm._m(0),
+              _c("div", { staticClass: "modal-header" }, [
+                _vm.customerFormStatus == "add"
+                  ? _c(
+                      "h5",
+                      {
+                        staticClass: "modal-title",
+                        attrs: { id: "exampleModalLabel" }
+                      },
+                      [_vm._v("New Customer")]
+                    )
+                  : _c(
+                      "h5",
+                      {
+                        staticClass: "modal-title",
+                        attrs: { id: "exampleModalLabel" }
+                      },
+                      [_vm._v("Edit Customer")]
+                    ),
+                _vm._v(" "),
+                _vm._m(0)
+              ]),
               _vm._v(" "),
               _c("div", { staticClass: "modal-body" }, [
                 _c("form", [
@@ -19428,7 +19528,7 @@ var render = function() {
                             }
                           }
                         }),
-                        _vm._v(" AngularJS\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t"),
+                        _vm._v(" AngularJS\n                  "),
                         _c("span")
                       ]),
                       _vm._v(" "),
@@ -19479,7 +19579,7 @@ var render = function() {
                             }
                           }
                         }),
-                        _vm._v(" VueJS\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t"),
+                        _vm._v(" VueJS\n                  "),
                         _c("span")
                       ]),
                       _vm._v(" "),
@@ -19530,7 +19630,7 @@ var render = function() {
                             }
                           }
                         }),
-                        _vm._v(" ReactJS\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t"),
+                        _vm._v(" ReactJS\n                  "),
                         _c("span")
                       ])
                     ])
@@ -19548,15 +19648,25 @@ var render = function() {
                   [_vm._v("Close")]
                 ),
                 _vm._v(" "),
-                _c(
-                  "button",
-                  {
-                    staticClass: "btn btn-primary",
-                    attrs: { "data-dismiss": "modal", type: "button" },
-                    on: { click: _vm.save }
-                  },
-                  [_vm._v("Add")]
-                )
+                _vm.customerFormStatus == "add"
+                  ? _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-primary",
+                        attrs: { "data-dismiss": "modal", type: "button" },
+                        on: { click: _vm.save }
+                      },
+                      [_vm._v("Add")]
+                    )
+                  : _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-primary",
+                        attrs: { "data-dismiss": "modal", type: "button" },
+                        on: { click: _vm.update }
+                      },
+                      [_vm._v("Update")]
+                    )
               ])
             ])
           ]
@@ -19570,26 +19680,18 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "modal-header" }, [
-      _c(
-        "h5",
-        { staticClass: "modal-title", attrs: { id: "exampleModalLabel" } },
-        [_vm._v("New Customer")]
-      ),
-      _vm._v(" "),
-      _c(
-        "button",
-        {
-          staticClass: "close",
-          attrs: {
-            type: "button",
-            "data-dismiss": "modal",
-            "aria-label": "Close"
-          }
-        },
-        [_c("span", { attrs: { "aria-hidden": "true" } }, [_vm._v("×")])]
-      )
-    ])
+    return _c(
+      "button",
+      {
+        staticClass: "close",
+        attrs: {
+          type: "button",
+          "data-dismiss": "modal",
+          "aria-label": "Close"
+        }
+      },
+      [_c("span", { attrs: { "aria-hidden": "true" } }, [_vm._v("×")])]
+    )
   }
 ]
 render._withStripped = true
@@ -19691,9 +19793,13 @@ var render = function() {
                   _c("td", [
                     _c("i", {
                       staticClass: "fa fa-pen ml-15",
+                      attrs: {
+                        "data-toggle": "modal",
+                        "data-target": "#m_modal_5"
+                      },
                       on: {
                         click: function($event) {
-                          return _vm.edit(index)
+                          return _vm.edit(_vm.details[index], index)
                         }
                       }
                     }),
@@ -19763,7 +19869,8 @@ var render = function() {
       _vm._v(" "),
       _c("customer-form", {
         ref: "customerForm",
-        on: { save: _vm.addNewCustomer }
+        attrs: { customerFormStatus: _vm.customerFormStatus },
+        on: { save: _vm.addNewCustomer, update: _vm.updateCustomer }
       })
     ],
     1

@@ -39,7 +39,7 @@
                     <tr v-for="(r,index) in details" :key="index">
                         <td v-for="(d,index2) in r.data" :key="index2">{{ d }}</td>
                         <td>
-                             <i @click="edit(index)" class="fa fa-pen ml-15"></i>
+                             <i  @click="edit(details[index],index)" data-toggle="modal" data-target="#m_modal_5"  class="fa fa-pen ml-15"></i>
                              <i @click="del(index)" class="fa fa-trash ml-15"></i>
                         </td>
                         <td v-for="i in 4" :key="i" class="remove"></td>
@@ -70,8 +70,11 @@ computed:{
     }
 },
 methods:{
-    edit(i){
-        this.$emit('edit',i)
+    edit(data,index){
+        let d = [];
+        d.push(data);
+        d.push(index);
+        this.$emit('edit',d)
     },
     del(i){
         this.$emit('del',i)
