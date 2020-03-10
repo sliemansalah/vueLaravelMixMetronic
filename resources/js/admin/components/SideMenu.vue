@@ -15,7 +15,6 @@
                 <ul class="m-menu__subnav">
                   <li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Base</span></span></li>
                   <li class="m-menu__item " aria-haspopup="true"><router-link to="/customers" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">View</span></router-link></li>
-                  <li class="m-menu__item " aria-haspopup="true"><router-link to="/customers/new" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Add New</span></router-link></li>
                 </ul>
               </div>
             </li>

@@ -21,7 +21,7 @@
                 <span class="m-menu__link-wrap">
                   <span class="m-menu__link-text">Dashboard</span>
                   <span class="m-menu__link-badge">
-                    <span class="m-badge m-badge--danger">2</span>
+                    <span class="m-badge m-badge--danger"> {{ customersCount }}</span>
                   </span>
                 </span>
               </span>
@@ -52,14 +52,6 @@
                     <span class="m-menu__link-text">View All</span>
                   </router-link>
                 </li>
-                <li class="m-menu__item" aria-haspopup="true">
-                  <router-link to="/customers/new" class="m-menu__link">
-                    <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                      <span></span>
-                    </i>
-                    <span class="m-menu__link-text">Add New</span>
-                  </router-link>
-                </li>
               </ul>
             </div>
           </li>
@@ -72,7 +64,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data(){
+    return {
+      customersCount:JSON.parse(localStorage.getItem('customers')).length
+    }
+  }
+};
 </script>
 
 <style>

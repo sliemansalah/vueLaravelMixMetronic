@@ -13,6 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+// Route::get('/admin/{any}', function () {
+//     return view('admin/index');
+// })->where('any','.*');
+
+// Route::get('/customer/{any}', function () {
+//     return view('customer/index');
+// })->where('any','.*');
+
 Route::get('/{any}', function () {
-    return view('index');
+    return view('admin/index');
 })->where('any','.*');
+
+
