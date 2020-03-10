@@ -59,6 +59,7 @@ export default {
         this.customers.push(customer_add)
         localStorage.setItem('customers',JSON.stringify(this.customers))
             this.details = this.customers
+          swal("Add Customer!", "Customer Added Successfully!", "success")
     },
     skillsFilter(skills){
       let data="";

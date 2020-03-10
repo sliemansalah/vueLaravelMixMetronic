@@ -358,6 +358,7 @@ var _ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
       this.customers.push(customer_add);
       localStorage.setItem('customers', JSON.stringify(this.customers));
       this.details = this.customers;
+      swal("Add Customer!", "Customer Added Successfully!", "success");
     },
     skillsFilter: function skillsFilter(skills) {
       var data = "";
