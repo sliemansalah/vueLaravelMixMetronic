@@ -12,13 +12,15 @@
       @edit="edit" 
       @del="del">
   </d-t>
-  <modal></modal>
+  <customer-form ref="customerForm" @save="addNewCustomer"></customer-form>
   </div>
 </template>
 <script>
+var _ = require('lodash');
 export default {
   data(){
     return {
+      customers:[],
       rows:[
       {id:'id',value:'ID'},
       {id:'name',value:'Name'},
@@ -26,28 +28,7 @@ export default {
       {id:'email',value:'Email'},
       {id:'skills',value:'Skills'},
     ],
-    details:
-    [
-        {
-         data:{
-          id:1,
-          name:'Solayman',
-          age:26,
-          email:'slieman2001@hotmail.com',
-          skills:'Angular/ Vue'
-         }
-        },
-      {
-        data:
-        {
-          id:2,
-          name:'Ahmed',
-          age:22,
-          email:'ahmed@hotmail.com',
-          skills:'Angular'
-        }
-      }
-    ],
+    details:[],
     }
   },
   methods:{
@@ -58,9 +39,47 @@ export default {
       console.log(data);
     },
     add(){
-      console.log('add started');
+      console.log('add started')
+     this.$refs.customerForm.clear()
+    },
+    addNewCustomer(data){
+       let skills_filter = this.skillsFilter(data.skills);
+       let customer_add = {
+         data:{
+          id:1,
+          name:data.name,
+          age:data.age,
+          email:data.email,
+          skills:skills_filter
+         }
+        };
+      this.customers =  localStorage.getItem('customers') ?
+                        JSON.parse(localStorage.getItem('customers')) : 
+                        []
+        this.customers.push(customer_add)
+        localStorage.setItem('customers',JSON.stringify(this.customers))
+            this.details = this.customers
+    },
+    skillsFilter(skills){
+      let data="";
+  _.forEach(skills, function(value,key) {
+    if(value){
+      data+=key +"/"
     }
+});
+data=data.substring(0,data.length -1)
+    return data
+    }
+  },
+  mounted(){
+     this.customers =  localStorage.getItem('customers') ?
+                        JSON.parse(localStorage.getItem('customers')) : 
+                        []
+    this.details = this.customers
   }
 }
-
 </script>
+
+<style>
+
+</style>
