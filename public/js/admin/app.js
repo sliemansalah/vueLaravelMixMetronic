@@ -145,677 +145,48 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: {
+    title: String,
+    addBtn: String,
+    rows: Array,
+    details: Array,
+    addBtnBgColor: String,
+    addBtnColor: String
+  },
+  computed: {
+    bgStyle: function bgStyle() {
+      return {
+        backgroundColor: this.addBtnBgColor + ' !important',
+        border: 'none !important',
+        color: this.addBtnColor + ' !important'
+      };
+    }
+  },
+  methods: {
+    edit: function edit(i) {
+      this.$emit('edit', i);
+    },
+    del: function del(i) {
+      this.$emit('del', i);
+    },
+    add: function add() {
+      this.$emit('add');
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/components/metronic/Modal.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/components/metronic/Modal.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
 //
 //
 //
@@ -874,7 +245,69 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      rows: [{
+        id: 'id',
+        value: 'ID'
+      }, {
+        id: 'name',
+        value: 'Name'
+      }, {
+        id: 'age',
+        value: 'Age'
+      }, {
+        id: 'email',
+        value: 'Email'
+      }, {
+        id: 'skills',
+        value: 'Skills'
+      }, {
+        id: 'actions',
+        value: 'Actions'
+      }],
+      details: [{
+        data: {
+          id: 1,
+          name: 'Solayman',
+          age: 26,
+          email: 'slieman2001@hotmail.com',
+          skills: 'Angular/ Vue'
+        }
+      }, {
+        data: {
+          id: 2,
+          name: 'Ahmed',
+          age: 22,
+          email: 'ahmed@hotmail.com',
+          skills: 'Angular'
+        }
+      }]
+    };
+  },
+  methods: {
+    edit: function edit(data) {
+      console.log(data);
+    },
+    del: function del(data) {
+      console.log(data);
+    },
+    add: function add() {
+      console.log('add started');
+    }
+  }
+});
 
 /***/ }),
 
@@ -1452,6 +885,112 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/components/metronic/DataTable.vue?vue&type=style&index=0&lang=css&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--5-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/components/metronic/DataTable.vue?vue&type=style&index=0&lang=css& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.ml-15{ margin-left: 15px;}\n.fa {cursor: pointer;}\n.fa-pen:hover{color: green;}\n.fa-trash:hover{color: red;}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/css-base.js":
+/*!*************************************************!*\
+  !*** ./node_modules/css-loader/lib/css-base.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/process/browser.js":
 /*!*****************************************!*\
   !*** ./node_modules/process/browser.js ***!
@@ -1845,6 +1384,545 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/components/metronic/DataTable.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--5-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--5-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/components/metronic/DataTable.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader??ref--5-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--5-2!../../../../../node_modules/vue-loader/lib??vue-loader-options!./DataTable.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/components/metronic/DataTable.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/lib/addStyles.js":
+/*!****************************************************!*\
+  !*** ./node_modules/style-loader/lib/addStyles.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+
+var stylesInDom = {};
+
+var	memoize = function (fn) {
+	var memo;
+
+	return function () {
+		if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+		return memo;
+	};
+};
+
+var isOldIE = memoize(function () {
+	// Test for IE <= 9 as proposed by Browserhacks
+	// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+	// Tests for existence of standard globals is to allow style-loader
+	// to operate correctly into non-standard environments
+	// @see https://github.com/webpack-contrib/style-loader/issues/177
+	return window && document && document.all && !window.atob;
+});
+
+var getTarget = function (target, parent) {
+  if (parent){
+    return parent.querySelector(target);
+  }
+  return document.querySelector(target);
+};
+
+var getElement = (function (fn) {
+	var memo = {};
+
+	return function(target, parent) {
+                // If passing function in options, then use it for resolve "head" element.
+                // Useful for Shadow Root style i.e
+                // {
+                //   insertInto: function () { return document.querySelector("#foo").shadowRoot }
+                // }
+                if (typeof target === 'function') {
+                        return target();
+                }
+                if (typeof memo[target] === "undefined") {
+			var styleTarget = getTarget.call(this, target, parent);
+			// Special case to return head of iframe instead of iframe itself
+			if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+				try {
+					// This will throw an exception if access to iframe is blocked
+					// due to cross-origin restrictions
+					styleTarget = styleTarget.contentDocument.head;
+				} catch(e) {
+					styleTarget = null;
+				}
+			}
+			memo[target] = styleTarget;
+		}
+		return memo[target]
+	};
+})();
+
+var singleton = null;
+var	singletonCounter = 0;
+var	stylesInsertedAtTop = [];
+
+var	fixUrls = __webpack_require__(/*! ./urls */ "./node_modules/style-loader/lib/urls.js");
+
+module.exports = function(list, options) {
+	if (typeof DEBUG !== "undefined" && DEBUG) {
+		if (typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+	}
+
+	options = options || {};
+
+	options.attrs = typeof options.attrs === "object" ? options.attrs : {};
+
+	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+	// tags it will allow on a page
+	if (!options.singleton && typeof options.singleton !== "boolean") options.singleton = isOldIE();
+
+	// By default, add <style> tags to the <head> element
+        if (!options.insertInto) options.insertInto = "head";
+
+	// By default, add <style> tags to the bottom of the target
+	if (!options.insertAt) options.insertAt = "bottom";
+
+	var styles = listToStyles(list, options);
+
+	addStylesToDom(styles, options);
+
+	return function update (newList) {
+		var mayRemove = [];
+
+		for (var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+
+			domStyle.refs--;
+			mayRemove.push(domStyle);
+		}
+
+		if(newList) {
+			var newStyles = listToStyles(newList, options);
+			addStylesToDom(newStyles, options);
+		}
+
+		for (var i = 0; i < mayRemove.length; i++) {
+			var domStyle = mayRemove[i];
+
+			if(domStyle.refs === 0) {
+				for (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();
+
+				delete stylesInDom[domStyle.id];
+			}
+		}
+	};
+};
+
+function addStylesToDom (styles, options) {
+	for (var i = 0; i < styles.length; i++) {
+		var item = styles[i];
+		var domStyle = stylesInDom[item.id];
+
+		if(domStyle) {
+			domStyle.refs++;
+
+			for(var j = 0; j < domStyle.parts.length; j++) {
+				domStyle.parts[j](item.parts[j]);
+			}
+
+			for(; j < item.parts.length; j++) {
+				domStyle.parts.push(addStyle(item.parts[j], options));
+			}
+		} else {
+			var parts = [];
+
+			for(var j = 0; j < item.parts.length; j++) {
+				parts.push(addStyle(item.parts[j], options));
+			}
+
+			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+		}
+	}
+}
+
+function listToStyles (list, options) {
+	var styles = [];
+	var newStyles = {};
+
+	for (var i = 0; i < list.length; i++) {
+		var item = list[i];
+		var id = options.base ? item[0] + options.base : item[0];
+		var css = item[1];
+		var media = item[2];
+		var sourceMap = item[3];
+		var part = {css: css, media: media, sourceMap: sourceMap};
+
+		if(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});
+		else newStyles[id].parts.push(part);
+	}
+
+	return styles;
+}
+
+function insertStyleElement (options, style) {
+	var target = getElement(options.insertInto)
+
+	if (!target) {
+		throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");
+	}
+
+	var lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];
+
+	if (options.insertAt === "top") {
+		if (!lastStyleElementInsertedAtTop) {
+			target.insertBefore(style, target.firstChild);
+		} else if (lastStyleElementInsertedAtTop.nextSibling) {
+			target.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);
+		} else {
+			target.appendChild(style);
+		}
+		stylesInsertedAtTop.push(style);
+	} else if (options.insertAt === "bottom") {
+		target.appendChild(style);
+	} else if (typeof options.insertAt === "object" && options.insertAt.before) {
+		var nextSibling = getElement(options.insertAt.before, target);
+		target.insertBefore(style, nextSibling);
+	} else {
+		throw new Error("[Style Loader]\n\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\n Must be 'top', 'bottom', or Object.\n (https://github.com/webpack-contrib/style-loader#insertat)\n");
+	}
+}
+
+function removeStyleElement (style) {
+	if (style.parentNode === null) return false;
+	style.parentNode.removeChild(style);
+
+	var idx = stylesInsertedAtTop.indexOf(style);
+	if(idx >= 0) {
+		stylesInsertedAtTop.splice(idx, 1);
+	}
+}
+
+function createStyleElement (options) {
+	var style = document.createElement("style");
+
+	if(options.attrs.type === undefined) {
+		options.attrs.type = "text/css";
+	}
+
+	if(options.attrs.nonce === undefined) {
+		var nonce = getNonce();
+		if (nonce) {
+			options.attrs.nonce = nonce;
+		}
+	}
+
+	addAttrs(style, options.attrs);
+	insertStyleElement(options, style);
+
+	return style;
+}
+
+function createLinkElement (options) {
+	var link = document.createElement("link");
+
+	if(options.attrs.type === undefined) {
+		options.attrs.type = "text/css";
+	}
+	options.attrs.rel = "stylesheet";
+
+	addAttrs(link, options.attrs);
+	insertStyleElement(options, link);
+
+	return link;
+}
+
+function addAttrs (el, attrs) {
+	Object.keys(attrs).forEach(function (key) {
+		el.setAttribute(key, attrs[key]);
+	});
+}
+
+function getNonce() {
+	if (false) {}
+
+	return __webpack_require__.nc;
+}
+
+function addStyle (obj, options) {
+	var style, update, remove, result;
+
+	// If a transform function was defined, run it on the css
+	if (options.transform && obj.css) {
+	    result = typeof options.transform === 'function'
+		 ? options.transform(obj.css) 
+		 : options.transform.default(obj.css);
+
+	    if (result) {
+	    	// If transform returns a value, use that instead of the original css.
+	    	// This allows running runtime transformations on the css.
+	    	obj.css = result;
+	    } else {
+	    	// If the transform function returns a falsy value, don't add this css.
+	    	// This allows conditional loading of css
+	    	return function() {
+	    		// noop
+	    	};
+	    }
+	}
+
+	if (options.singleton) {
+		var styleIndex = singletonCounter++;
+
+		style = singleton || (singleton = createStyleElement(options));
+
+		update = applyToSingletonTag.bind(null, style, styleIndex, false);
+		remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+
+	} else if (
+		obj.sourceMap &&
+		typeof URL === "function" &&
+		typeof URL.createObjectURL === "function" &&
+		typeof URL.revokeObjectURL === "function" &&
+		typeof Blob === "function" &&
+		typeof btoa === "function"
+	) {
+		style = createLinkElement(options);
+		update = updateLink.bind(null, style, options);
+		remove = function () {
+			removeStyleElement(style);
+
+			if(style.href) URL.revokeObjectURL(style.href);
+		};
+	} else {
+		style = createStyleElement(options);
+		update = applyToTag.bind(null, style);
+		remove = function () {
+			removeStyleElement(style);
+		};
+	}
+
+	update(obj);
+
+	return function updateStyle (newObj) {
+		if (newObj) {
+			if (
+				newObj.css === obj.css &&
+				newObj.media === obj.media &&
+				newObj.sourceMap === obj.sourceMap
+			) {
+				return;
+			}
+
+			update(obj = newObj);
+		} else {
+			remove();
+		}
+	};
+}
+
+var replaceText = (function () {
+	var textStore = [];
+
+	return function (index, replacement) {
+		textStore[index] = replacement;
+
+		return textStore.filter(Boolean).join('\n');
+	};
+})();
+
+function applyToSingletonTag (style, index, remove, obj) {
+	var css = remove ? "" : obj.css;
+
+	if (style.styleSheet) {
+		style.styleSheet.cssText = replaceText(index, css);
+	} else {
+		var cssNode = document.createTextNode(css);
+		var childNodes = style.childNodes;
+
+		if (childNodes[index]) style.removeChild(childNodes[index]);
+
+		if (childNodes.length) {
+			style.insertBefore(cssNode, childNodes[index]);
+		} else {
+			style.appendChild(cssNode);
+		}
+	}
+}
+
+function applyToTag (style, obj) {
+	var css = obj.css;
+	var media = obj.media;
+
+	if(media) {
+		style.setAttribute("media", media)
+	}
+
+	if(style.styleSheet) {
+		style.styleSheet.cssText = css;
+	} else {
+		while(style.firstChild) {
+			style.removeChild(style.firstChild);
+		}
+
+		style.appendChild(document.createTextNode(css));
+	}
+}
+
+function updateLink (link, options, obj) {
+	var css = obj.css;
+	var sourceMap = obj.sourceMap;
+
+	/*
+		If convertToAbsoluteUrls isn't defined, but sourcemaps are enabled
+		and there is no publicPath defined then lets turn convertToAbsoluteUrls
+		on by default.  Otherwise default to the convertToAbsoluteUrls option
+		directly
+	*/
+	var autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;
+
+	if (options.convertToAbsoluteUrls || autoFixUrls) {
+		css = fixUrls(css);
+	}
+
+	if (sourceMap) {
+		// http://stackoverflow.com/a/26603875
+		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+	}
+
+	var blob = new Blob([css], { type: "text/css" });
+
+	var oldSrc = link.href;
+
+	link.href = URL.createObjectURL(blob);
+
+	if(oldSrc) URL.revokeObjectURL(oldSrc);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/lib/urls.js":
+/*!***********************************************!*\
+  !*** ./node_modules/style-loader/lib/urls.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+/**
+ * When source maps are enabled, `style-loader` uses a link element with a data-uri to
+ * embed the css on the page. This breaks all relative urls because now they are relative to a
+ * bundle instead of the current page.
+ *
+ * One solution is to only use full urls, but that may be impossible.
+ *
+ * Instead, this function "fixes" the relative urls to be absolute according to the current page location.
+ *
+ * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.
+ *
+ */
+
+module.exports = function (css) {
+  // get current location
+  var location = typeof window !== "undefined" && window.location;
+
+  if (!location) {
+    throw new Error("fixUrls requires window.location");
+  }
+
+	// blank or null?
+	if (!css || typeof css !== "string") {
+	  return css;
+  }
+
+  var baseUrl = location.protocol + "//" + location.host;
+  var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "/");
+
+	// convert each url(...)
+	/*
+	This regular expression is just a way to recursively match brackets within
+	a string.
+
+	 /url\s*\(  = Match on the word "url" with any whitespace after it and then a parens
+	   (  = Start a capturing group
+	     (?:  = Start a non-capturing group
+	         [^)(]  = Match anything that isn't a parentheses
+	         |  = OR
+	         \(  = Match a start parentheses
+	             (?:  = Start another non-capturing groups
+	                 [^)(]+  = Match anything that isn't a parentheses
+	                 |  = OR
+	                 \(  = Match a start parentheses
+	                     [^)(]*  = Match anything that isn't a parentheses
+	                 \)  = Match a end parentheses
+	             )  = End Group
+              *\) = Match anything and then a close parens
+          )  = Close non-capturing group
+          *  = Match anything
+       )  = Close capturing group
+	 \)  = Match a close parens
+
+	 /gi  = Get all matches, not the first.  Be case insensitive.
+	 */
+	var fixedCss = css.replace(/url\s*\(((?:[^)(]|\((?:[^)(]+|\([^)(]*\))*\))*)\)/gi, function(fullMatch, origUrl) {
+		// strip quotes (if they exist)
+		var unquotedOrigUrl = origUrl
+			.trim()
+			.replace(/^"(.*)"$/, function(o, $1){ return $1; })
+			.replace(/^'(.*)'$/, function(o, $1){ return $1; });
+
+		// already a full url? no change
+		if (/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/|\s*$)/i.test(unquotedOrigUrl)) {
+		  return fullMatch;
+		}
+
+		// convert the url to a full url
+		var newUrl;
+
+		if (unquotedOrigUrl.indexOf("//") === 0) {
+		  	//TODO: should we add protocol?
+			newUrl = unquotedOrigUrl;
+		} else if (unquotedOrigUrl.indexOf("/") === 0) {
+			// path should be relative to the base url
+			newUrl = baseUrl + unquotedOrigUrl; // already starts with '/'
+		} else {
+			// path should be relative to current directory
+			newUrl = currentDir + unquotedOrigUrl.replace(/^\.\//, ""); // Strip leading './'
+		}
+
+		// send back the fixed url(...)
+		return "url(" + JSON.stringify(newUrl) + ")";
+	});
+
+	// send back the fixed css
+	return fixedCss;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/timers-browserify/main.js":
 /*!************************************************!*\
   !*** ./node_modules/timers-browserify/main.js ***!
@@ -1935,6 +2013,129 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "m-portlet m-portlet--mobile" }, [
+    _c("div", { staticClass: "m-portlet__head" }, [
+      _c("div", { staticClass: "m-portlet__head-caption" }, [
+        _c("div", { staticClass: "m-portlet__head-title" }, [
+          _c("h3", { staticClass: "m-portlet__head-text" }, [
+            _vm._v(
+              "\n                   " + _vm._s(_vm.title) + "\n                "
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "m-portlet__head-tools" }, [
+        _c("ul", { staticClass: "m-portlet__nav" }, [
+          _c("li", { staticClass: "m-portlet__nav-item" }, [
+            _c(
+              "button",
+              {
+                staticClass:
+                  "btn btn-accent m-btn m-btn--custom m-btn--icon m-btn--air",
+                style: _vm.bgStyle,
+                attrs: {
+                  type: "button",
+                  "data-toggle": "modal",
+                  "data-target": "#m_modal_5"
+                },
+                on: { click: _vm.add }
+              },
+              [
+                _c("span", [
+                  _c("i", { staticClass: "la la-plus" }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(_vm.addBtn))])
+                ])
+              ]
+            )
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "m-portlet__body" }, [
+      _c(
+        "table",
+        {
+          staticClass:
+            "table table-striped- table-bordered table-hover table-checkable",
+          attrs: { id: "m_table_1" }
+        },
+        [
+          _c("thead", [
+            _c(
+              "tr",
+              _vm._l(_vm.rows, function(row) {
+                return _c("th", { key: row.id }, [_vm._v(_vm._s(row.value))])
+              }),
+              0
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "tbody",
+            _vm._l(_vm.details, function(r, index) {
+              return _c(
+                "tr",
+                { key: index },
+                [
+                  _vm._l(r.data, function(d, index2) {
+                    return _c("td", { key: index2 }, [_vm._v(_vm._s(d))])
+                  }),
+                  _vm._v(" "),
+                  _c("td", [
+                    _c("i", {
+                      staticClass: "fa fa-pen ml-15",
+                      on: {
+                        click: function($event) {
+                          return _vm.edit(index)
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("i", {
+                      staticClass: "fa fa-trash ml-15",
+                      on: {
+                        click: function($event) {
+                          return _vm.del(index)
+                        }
+                      }
+                    })
+                  ])
+                ],
+                2
+              )
+            }),
+            0
+          )
+        ]
+      )
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/components/metronic/Modal.vue?vue&type=template&id=3f8ad918&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/components/metronic/Modal.vue?vue&type=template&id=3f8ad918& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
   return _vm._m(0)
 }
 var staticRenderFns = [
@@ -1942,1472 +2143,132 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "m-portlet m-portlet--mobile" }, [
-      _c("div", { staticClass: "m-portlet__head" }, [
-        _c("div", { staticClass: "m-portlet__head-caption" }, [
-          _c("div", { staticClass: "m-portlet__head-title" }, [
-            _c("h3", { staticClass: "m-portlet__head-text" }, [
-              _vm._v(
-                "\n                    Multiple Controls\n                "
-              )
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "m-portlet__head-tools" }, [
-          _c("ul", { staticClass: "m-portlet__nav" }, [
-            _c("li", { staticClass: "m-portlet__nav-item" }, [
-              _c(
-                "a",
-                {
-                  staticClass:
-                    "btn btn-accent m-btn m-btn--custom m-btn--icon m-btn--air",
-                  attrs: { href: "#" }
-                },
-                [
-                  _c("span", [
-                    _c("i", { staticClass: "la la-plus" }),
-                    _vm._v(" "),
-                    _c("span", [_vm._v("New Record")])
-                  ])
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "m-portlet__nav-item" }),
-            _vm._v(" "),
-            _c("li", { staticClass: "m-portlet__nav-item" }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "m-dropdown m-dropdown--inline m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push",
-                  attrs: {
-                    "m-dropdown-toggle": "hover",
-                    "aria-expanded": "true"
-                  }
-                },
-                [
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "modal fade",
+          attrs: {
+            id: "m_modal_5",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "exampleModalLabel",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "modal-dialog modal-sm",
+              attrs: { role: "document" }
+            },
+            [
+              _c("div", { staticClass: "modal-content" }, [
+                _c("div", { staticClass: "modal-header" }, [
                   _c(
-                    "a",
+                    "h5",
                     {
-                      staticClass:
-                        "m-portlet__nav-link btn btn-lg btn-secondary  m-btn m-btn--icon m-btn--icon-only m-btn--pill  m-dropdown__toggle",
-                      attrs: { href: "#" }
+                      staticClass: "modal-title",
+                      attrs: { id: "exampleModalLabel" }
                     },
-                    [_c("i", { staticClass: "la la-ellipsis-h m--font-brand" })]
+                    [_vm._v("New Customer")]
                   ),
                   _vm._v(" "),
-                  _c("div", { staticClass: "m-dropdown__wrapper" }, [
-                    _c("span", {
-                      staticClass:
-                        "m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust"
-                    }),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "m-dropdown__inner" }, [
-                      _c("div", { staticClass: "m-dropdown__body" }, [
-                        _c("div", { staticClass: "m-dropdown__content" }, [
-                          _c("ul", { staticClass: "m-nav" }, [
-                            _c(
-                              "li",
-                              {
-                                staticClass:
-                                  "m-nav__section m-nav__section--first"
-                              },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "m-nav__section-text" },
-                                  [_vm._v("Quick Actions")]
-                                )
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c("li", { staticClass: "m-nav__item" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "m-nav__link",
-                                  attrs: { href: "" }
-                                },
-                                [
-                                  _c("i", {
-                                    staticClass:
-                                      "m-nav__link-icon flaticon-share"
-                                  }),
-                                  _vm._v(" "),
-                                  _c(
-                                    "span",
-                                    { staticClass: "m-nav__link-text" },
-                                    [_vm._v("Create Post")]
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("li", { staticClass: "m-nav__item" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "m-nav__link",
-                                  attrs: { href: "" }
-                                },
-                                [
-                                  _c("i", {
-                                    staticClass:
-                                      "m-nav__link-icon flaticon-chat-1"
-                                  }),
-                                  _vm._v(" "),
-                                  _c(
-                                    "span",
-                                    { staticClass: "m-nav__link-text" },
-                                    [_vm._v("Send Messages")]
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("li", { staticClass: "m-nav__item" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "m-nav__link",
-                                  attrs: { href: "" }
-                                },
-                                [
-                                  _c("i", {
-                                    staticClass:
-                                      "m-nav__link-icon flaticon-multimedia-2"
-                                  }),
-                                  _vm._v(" "),
-                                  _c(
-                                    "span",
-                                    { staticClass: "m-nav__link-text" },
-                                    [_vm._v("Upload File")]
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("li", { staticClass: "m-nav__section" }, [
-                              _c(
-                                "span",
-                                { staticClass: "m-nav__section-text" },
-                                [_vm._v("Useful Links")]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("li", { staticClass: "m-nav__item" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "m-nav__link",
-                                  attrs: { href: "" }
-                                },
-                                [
-                                  _c("i", {
-                                    staticClass:
-                                      "m-nav__link-icon flaticon-info"
-                                  }),
-                                  _vm._v(" "),
-                                  _c(
-                                    "span",
-                                    { staticClass: "m-nav__link-text" },
-                                    [_vm._v("FAQ")]
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("li", { staticClass: "m-nav__item" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "m-nav__link",
-                                  attrs: { href: "" }
-                                },
-                                [
-                                  _c("i", {
-                                    staticClass:
-                                      "m-nav__link-icon flaticon-lifebuoy"
-                                  }),
-                                  _vm._v(" "),
-                                  _c(
-                                    "span",
-                                    { staticClass: "m-nav__link-text" },
-                                    [_vm._v("Support")]
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("li", {
-                              staticClass:
-                                "m-nav__separator m-nav__separator--fit m--hide"
-                            }),
-                            _vm._v(" "),
-                            _c("li", { staticClass: "m-nav__item m--hide" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass:
-                                    "btn btn-outline-danger m-btn m-btn--pill m-btn--wide btn-sm",
-                                  attrs: { href: "#" }
-                                },
-                                [_vm._v("Submit")]
-                              )
-                            ])
-                          ])
-                        ])
+                  _c(
+                    "button",
+                    {
+                      staticClass: "close",
+                      attrs: {
+                        type: "button",
+                        "data-dismiss": "modal",
+                        "aria-label": "Close"
+                      }
+                    },
+                    [
+                      _c("span", { attrs: { "aria-hidden": "true" } }, [
+                        _vm._v("×")
                       ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-body" }, [
+                  _c("form", [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c(
+                        "label",
+                        {
+                          staticClass: "form-control-label",
+                          attrs: { for: "name" }
+                        },
+                        [_vm._v("Name:")]
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: { type: "text", id: "name" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c(
+                        "label",
+                        {
+                          staticClass: "form-control-label",
+                          attrs: { for: "age" }
+                        },
+                        [_vm._v("Age:")]
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: { type: "number", id: "age" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c(
+                        "label",
+                        {
+                          staticClass: "form-control-label",
+                          attrs: { for: "email" }
+                        },
+                        [_vm._v("Email:")]
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: { type: "text", id: "name" }
+                      })
                     ])
                   ])
-                ]
-              )
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "m-portlet__body" }, [
-        _c(
-          "table",
-          {
-            staticClass:
-              "table table-striped- table-bordered table-hover table-checkable",
-            attrs: { id: "m_table_1" }
-          },
-          [
-            _c("thead", [
-              _c("tr", [
-                _c("th", [_vm._v("Record ID")]),
+                ]),
                 _vm._v(" "),
-                _c("th", [_vm._v("Order ID")]),
-                _vm._v(" "),
-                _c("th", [_vm._v("Country")]),
-                _vm._v(" "),
-                _c("th", [_vm._v("Ship City")]),
-                _vm._v(" "),
-                _c("th", [_vm._v("Ship Address")]),
-                _vm._v(" "),
-                _c("th", [_vm._v("Company Agent")]),
-                _vm._v(" "),
-                _c("th", [_vm._v("Company Name")]),
-                _vm._v(" "),
-                _c("th", [_vm._v("Ship Date")]),
-                _vm._v(" "),
-                _c("th", [_vm._v("Status")]),
-                _vm._v(" "),
-                _c("th", [_vm._v("Type")]),
-                _vm._v(" "),
-                _c("th", [_vm._v("Actions")])
+                _c("div", { staticClass: "modal-footer" }, [
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-secondary",
+                      attrs: { type: "button", "data-dismiss": "modal" }
+                    },
+                    [_vm._v("Close")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-primary",
+                      attrs: { type: "button" }
+                    },
+                    [_vm._v("Add")]
+                  )
+                ])
               ])
-            ]),
-            _vm._v(" "),
-            _c("tbody", [
-              _c("tr", [
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("61715-075")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("China")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Tieba")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("746 Pine View Junction")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Nixie Sailor")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Gleichner, Ziemann and Gutkowski")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2/12/2018")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("63629-4697")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Indonesia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Cihaur")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("01652 Fulton Trail")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Emelita Giraldez")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Rosenbaum-Reichel")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("8/6/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("6")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("68084-123")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Argentina")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Puerto Iguazú")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2 Pine View Park")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Ula Luckin")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Kulas, Cassin and Batz")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5/26/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("4")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("67457-428")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Indonesia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Talok")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3050 Buell Terrace")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Evangeline Cure")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Pfannerstill-Treutel")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("7/2/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("5")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("31722-529")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Austria")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Sankt Andrä-Höch")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3038 Trailsway Junction")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Tierney St. Louis")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Dicki-Kling")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5/20/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("6")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("64117-168")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("China")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Rongkou")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("023 South Way")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Gerhard Reinhard")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Gleason, Kub and Marquardt")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("11/26/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("7")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("43857-0331")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("China")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Baiguo")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("56482 Fairfield Terrace")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Englebert Shelley")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Jenkins Inc")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("6/28/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("8")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("64980-196")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Croatia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Vinica")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("0 Elka Street")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Hazlett Kite")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Streich LLC")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("8/5/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("6")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("9")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("0404-0360")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Colombia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("San Carlos")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("38099 Ilene Hill")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Freida Morby")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Haley, Schamberger and Durgan")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3/31/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("10")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("52125-267")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Thailand")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Maha Sarakham")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("8696 Barby Pass")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Obed Helian")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Labadie, Predovic and Hammes")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1/26/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("11")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("54092-515")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Brazil")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Canguaretama")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("32461 Ridgeway Alley")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Sibyl Amy")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Treutel-Ratke")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3/8/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("12")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("0185-0130")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("China")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Jiamachi")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("23 Walton Pass")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Norri Foldes")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Strosin, Nitzsche and Wisozk")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4/2/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("13")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("21130-678")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("China")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Qiaole")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("328 Glendale Hill")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Myrna Orhtmann")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Miller-Schiller")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("6/7/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("14")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("40076-953")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Portugal")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Burgau")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("52550 Crownhardt Court")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Sioux Kneath")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Rice, Cole and Spinka")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("10/11/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("15")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("36987-3005")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Portugal")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Bacelo")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("548 Morrow Terrace")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Christa Jacmar")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Brakus-Hansen")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("8/17/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("16")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("67510-0062")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("South Africa")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Pongola")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("02534 Hauk Trail")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Shandee Goracci")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Bergnaum, Thiel and Schuppe")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("7/24/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("17")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("36987-2542")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Russia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Novokizhinginsk")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("19427 Sloan Road")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Jerrome Colvie")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Kreiger, Glover and Connelly")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3/4/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("18")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("11673-479")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Brazil")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Conceição das Alagoas")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("191 Stone Corner Road")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Michaelina Plenderleith")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Legros-Gleichner")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2/21/2018")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("19")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("47781-264")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Ukraine")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Yasinya")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1481 Sauthoff Place")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Lombard Luthwood")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Haag LLC")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1/21/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("20")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("42291-712")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Indonesia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Kembang")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("9029 Blackbird Point")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Leonora Chevin")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Mann LLC")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("9/6/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("21")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("64679-154")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Mongolia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Sharga")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("102 Holmberg Park")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Tannie Seakes")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Blanda Group")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("7/31/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("6")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("22")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("49348-055")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("China")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Guxi")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("45 Butterfield Street")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Yardley Wetherell")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Gerlach-Schultz")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4/3/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("23")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("47593-438")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Portugal")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Viso")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("97 Larry Center")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Bryn Peascod")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Larkin and Sons")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5/22/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("6")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("24")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("54569-0175")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Japan")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Minato")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("077 Hoffman Center")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Chrissie Jeromson")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Brakus-McCullough")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("11/26/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("25")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("0093-1016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Indonesia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Merdeka")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3150 Cherokee Center")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Gusti Clamp")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Stokes Group")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4/12/2018")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("6")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("26")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("0093-5142")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("China")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Jianggao")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("289 Badeau Alley")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Otis Jobbins")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Ruecker, Leffler and Abshire")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3/6/2018")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("27")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("51523-026")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Germany")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Erfurt")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("132 Chive Way")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Lonnie Haycox")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Feest Group")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4/24/2018")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("28")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("49035-522")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Australia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Eastern Suburbs Mc")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("074 Algoma Drive")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Heddi Castelli")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Kessler and Sons")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1/12/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("29")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("58411-198")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Ethiopia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Kombolcha")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("91066 Amoth Court")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Tuck O'Dowgaine")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Simonis, Rowe and Davis")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5/6/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("30")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("27495-006")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Portugal")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Arrifes")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3 Fairfield Junction")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Vernon Cosham")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Kreiger-Nicolas")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2/8/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("31")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("55154-8284")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Philippines")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Talisay")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("09 Sachtjen Junction")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Bryna MacCracken")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Hyatt-Witting")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("7/22/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("32")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("62678-207")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Libya")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Zuwārah")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("82 Thackeray Pass")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Freda Arnall")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Dicki, Morar and Stiedemann")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("7/22/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("33")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("68428-725")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("China")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Zhangcun")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3 Goodland Terrace")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Pavel Kringe")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Goldner-Lehner")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4/2/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("34")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("0363-0724")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Morocco")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Temara")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("9550 Weeping Birch Crossing")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Felix Nazaret")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Waters, Quigley and Keeling")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("6/4/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("35")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("37000-102")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Paraguay")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Los Cedrales")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1 Ridge Oak Way")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Penrod Allanby")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Rodriguez Group")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3/5/2018")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("36")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("55289-002")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Philippines")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Dologon")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("9 Vidon Terrace")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Hubey Passby")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Lemke-Hermiston")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("6/29/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("37")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("15127-874")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Tanzania")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Nanganga")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("33 Anniversary Parkway")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Magdaia Rotlauf")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Hettinger, Medhurst and Heaney")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2/18/2018")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("38")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("49349-123")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Indonesia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Pule")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("77292 Bonner Plaza")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Alfonse Lawrance")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Schuppe-Harber")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4/14/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("39")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("17089-415")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Palestinian Territory")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Za‘tarah")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("42806 Ridgeview Terrace")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Kessiah Chettoe")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Mraz LLC")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3/4/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("40")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("51327-510")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Philippines")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Esperanza")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4 Linden Court")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Natka Fairbanks")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Mueller-Greenholt")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("6/21/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("41")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("0187-2201")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Brazil")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Rio das Ostras")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5722 Buhler Place")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Shaw Puvia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Veum LLC")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("6/10/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("42")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("16590-890")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Indonesia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Krajan Gajahmati")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("54 Corry Street")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Alden Dingate")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Heidenreich Inc")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("10/27/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("43")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("75862-001")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Indonesia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Pineleng")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4 Messerschmidt Point")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Cherish Peplay")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("McCullough-Gibson")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("11/23/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("44")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("24559-091")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Philippines")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Amuñgan")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5470 Forest Parkway")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Nedi Swetman")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Gerhold Inc")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3/23/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("45")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("0007-3230")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Russia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Bilyarsk")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5899 Basil Place")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Ashley Blick")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Cummings-Goodwin")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("10/1/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("46")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("50184-1029")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Peru")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Chocope")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("65560 Daystar Center")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Saunders Harmant")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("O'Kon-Wiegand")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("11/7/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("2")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("47")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("10819-6003")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("France")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Rivesaltes")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4981 Springs Center")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Mellisa Laurencot")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Jacobs Group")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("10/30/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("48")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("62750-003")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Mongolia")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Jargalant")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("94 Rutledge Way")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Orland Myderscough")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Gutkowski Inc")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("11/2/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("3")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("49")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("68647-122")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Philippines")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Cardona")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("4765 Service Hill")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Devi Iglesias")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Ullrich-Dibbert")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("7/21/2016")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ]),
-              _vm._v(" "),
-              _c("tr", [
-                _c("td", [_vm._v("50")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("36987-3093")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("China")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Jiantou")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("373 Northwestern Plaza")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Bliss Tummasutti")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("Legros-Cummings")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("11/27/2017")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("5")]),
-                _vm._v(" "),
-                _c("td", [_vm._v("1")]),
-                _vm._v(" "),
-                _c("td", { attrs: { nowrap: "" } })
-              ])
-            ])
-          ]
-        )
-      ])
+            ]
+          )
+        ]
+      )
     ])
   }
 ]
@@ -3437,7 +2298,19 @@ var render = function() {
     [
       _c("h3", { staticClass: "m-subheader__title " }, [_vm._v("Dashboard")]),
       _vm._v(" "),
-      _c("d-t")
+      _c("d-t", {
+        attrs: {
+          title: "Customers",
+          addBtn: "New Customer",
+          addBtnBgColor: "#00f",
+          addBtnColor: "#fff",
+          rows: _vm.rows,
+          details: _vm.details
+        },
+        on: { add: _vm.add, edit: _vm.edit, del: _vm.del }
+      }),
+      _vm._v(" "),
+      _c("modal")
     ],
     1
   )
@@ -20912,6 +19785,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _views_customers_View__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./views/customers/View */ "./resources/js/admin/views/customers/View.vue");
 /* harmony import */ var _views_customers_New__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./views/customers/New */ "./resources/js/admin/views/customers/New.vue");
 /* harmony import */ var _components_metronic_DataTable_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/metronic/DataTable.vue */ "./resources/js/admin/components/metronic/DataTable.vue");
+/* harmony import */ var _components_metronic_Modal_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/metronic/Modal.vue */ "./resources/js/admin/components/metronic/Modal.vue");
+
 
 
 
@@ -20931,6 +19806,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Customers', _views_custome
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('ViewCustomers', _views_customers_View__WEBPACK_IMPORTED_MODULE_7__["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('NewCustomer', _views_customers_New__WEBPACK_IMPORTED_MODULE_8__["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('DT', _components_metronic_DataTable_vue__WEBPACK_IMPORTED_MODULE_9__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('Modal', _components_metronic_Modal_vue__WEBPACK_IMPORTED_MODULE_10__["default"]);
 
 /***/ }),
 
@@ -20945,7 +19821,9 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('DT', _components_metronic_
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _DataTable_vue_vue_type_template_id_77f16faf___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DataTable.vue?vue&type=template&id=77f16faf& */ "./resources/js/admin/components/metronic/DataTable.vue?vue&type=template&id=77f16faf&");
 /* harmony import */ var _DataTable_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DataTable.vue?vue&type=script&lang=js& */ "./resources/js/admin/components/metronic/DataTable.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _DataTable_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DataTable.vue?vue&type=style&index=0&lang=css& */ "./resources/js/admin/components/metronic/DataTable.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -20953,7 +19831,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _DataTable_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _DataTable_vue_vue_type_template_id_77f16faf___WEBPACK_IMPORTED_MODULE_0__["render"],
   _DataTable_vue_vue_type_template_id_77f16faf___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -20985,6 +19863,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/admin/components/metronic/DataTable.vue?vue&type=style&index=0&lang=css&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/admin/components/metronic/DataTable.vue?vue&type=style&index=0&lang=css& ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DataTable_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader!../../../../../node_modules/css-loader??ref--5-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--5-2!../../../../../node_modules/vue-loader/lib??vue-loader-options!./DataTable.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/components/metronic/DataTable.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DataTable_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DataTable_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DataTable_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DataTable_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DataTable_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "./resources/js/admin/components/metronic/DataTable.vue?vue&type=template&id=77f16faf&":
 /*!*********************************************************************************************!*\
   !*** ./resources/js/admin/components/metronic/DataTable.vue?vue&type=template&id=77f16faf& ***!
@@ -20998,6 +19892,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DataTable_vue_vue_type_template_id_77f16faf___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DataTable_vue_vue_type_template_id_77f16faf___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/admin/components/metronic/Modal.vue":
+/*!**********************************************************!*\
+  !*** ./resources/js/admin/components/metronic/Modal.vue ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Modal_vue_vue_type_template_id_3f8ad918___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Modal.vue?vue&type=template&id=3f8ad918& */ "./resources/js/admin/components/metronic/Modal.vue?vue&type=template&id=3f8ad918&");
+/* harmony import */ var _Modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Modal.vue?vue&type=script&lang=js& */ "./resources/js/admin/components/metronic/Modal.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Modal_vue_vue_type_template_id_3f8ad918___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Modal_vue_vue_type_template_id_3f8ad918___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/admin/components/metronic/Modal.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/admin/components/metronic/Modal.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/admin/components/metronic/Modal.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Modal.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/components/metronic/Modal.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/admin/components/metronic/Modal.vue?vue&type=template&id=3f8ad918&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/admin/components/metronic/Modal.vue?vue&type=template&id=3f8ad918& ***!
+  \*****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_template_id_3f8ad918___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Modal.vue?vue&type=template&id=3f8ad918& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/components/metronic/Modal.vue?vue&type=template&id=3f8ad918&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_template_id_3f8ad918___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_template_id_3f8ad918___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

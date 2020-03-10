@@ -11,6 +11,7 @@ import ViewCustomers from './views/customers/View'
 import NewCustomer from './views/customers/New'
 
 import DataTable from './components/metronic/DataTable.vue'
+import Modal from './components/metronic/Modal.vue'
 
 Vue.component('layout', Layout)
 
@@ -24,3 +25,4 @@ Vue.component('ViewCustomers', ViewCustomers)
 Vue.component('NewCustomer', NewCustomer)
 
 Vue.component('DT', DataTable)
+Vue.component('Modal', Modal)
