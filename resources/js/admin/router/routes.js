@@ -1,12 +1,12 @@
 import Dashboard from "../views/Dashboard";
 import Index from "../views/customers/Index";
 import Customers from "../views/customers/View";
-import AddCustomer from "../views/customers/Add";
+import NewCustomer from "../views/customers/New";
 
 export default  [
     { path: '/', component: Dashboard },
     { path: '/customers', component: Index, children:[
         { path: '', component: Customers },
-        { path: 'add', component: AddCustomer },
+        { path: 'new', component: NewCustomer },
     ] },
 ]

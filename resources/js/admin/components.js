@@ -8,7 +8,9 @@ import Footer from './views/partials/Footer'
 
 import Customers from './views/customers/Index'
 import ViewCustomers from './views/customers/View'
-import AddCustomer from './views/customers/Add'
+import NewCustomer from './views/customers/New'
+
+import DataTable from './components/metronic/DataTable.vue'
 
 Vue.component('layout', Layout)
 
@@ -19,4 +21,6 @@ Vue.component('appFooter', Footer)
 
 Vue.component('Customers', Customers)
 Vue.component('ViewCustomers', ViewCustomers)
-Vue.component('AddCustomer', AddCustomer)
+Vue.component('NewCustomer', NewCustomer)
+
+Vue.component('DT', DataTable)

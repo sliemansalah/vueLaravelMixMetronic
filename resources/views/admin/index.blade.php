@@ -21,7 +21,11 @@
         <!--begin::Global Theme Styles -->
         <link href="/vendors/general/base-vendors/css/vendors.bundle.css" rel="stylesheet" type="text/css" />
     		<link href="/vendors/general/base-vendors/css/style.bundle.css" rel="stylesheet" type="text/css" />
-    <title>Metronic Vue CLI | Admin Panel</title>
+          
+        <!-- For DataTable -->
+        <link href="/vendors/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+
+        <title>Metronic Vue CLI | Admin Panel</title>
   </head>
   <body class="m-page--fluid m--skin- m-content--skin-light2 m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--fixed m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default">
     <div id="app">
@@ -29,6 +33,11 @@
     </div>
 		<script src="/vendors/general/base-vendors/js/vendors.bundle.js" type="text/javascript"></script>
     <script src="/vendors/general/base-vendors/js/scripts.bundle.js" type="text/javascript"></script>
+        
+    <!-- For DataTable -->
+    <script src="/vendors/custom/datatables/datatables.bundle.js" type="text/javascript"></script>
+		<script src="/vendors/custom/crud/datatables/advanced/multiple-controls.js" type="text/javascript"></script>
+
 		<script src="{{ mix('js/admin/app.js') }}"></script>
   </body>
 </html>
