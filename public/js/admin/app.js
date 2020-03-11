@@ -263,7 +263,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     title: String,
@@ -1078,7 +1077,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n.ml-15{ margin-left: 15px;}\n.fa {cursor: pointer;}\n.fa-pen:hover{color: green;}\n.fa-trash:hover{color: red;}\n.remove{display: none;}\r\n", ""]);
+exports.push([module.i, "\n.ml-15{ margin-left: 15px;}\n.fa {cursor: pointer;}\n.fa-pen:hover{color: green;}\n.fa-trash:hover{color: red;}\r\n", ""]);
 
 // exports
 
@@ -19873,11 +19872,7 @@ var render = function() {
                         }
                       }
                     })
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(4, function(i) {
-                    return _c("td", { key: i, staticClass: "remove" })
-                  })
+                  ])
                 ],
                 2
               )
@@ -37337,10 +37332,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./router */ "./resources/js/admin/router/index.js");
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components */ "./resources/js/admin/components.js");
+/* harmony import */ var _datatable__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./datatable */ "./resources/js/admin/datatable.js");
+/* harmony import */ var _datatable__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_datatable__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.config.productionTip = false;
+
 new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app',
   router: _router__WEBPACK_IMPORTED_MODULE_1__["default"]
@@ -37608,6 +37606,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DataTable_vue_vue_type_template_id_77f16faf___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
+
+/***/ }),
+
+/***/ "./resources/js/admin/datatable.js":
+/*!*****************************************!*\
+  !*** ./resources/js/admin/datatable.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var DatatablesAdvancedMultipleControls = {
+  init: function init() {
+    $("#m_table_1").DataTable({
+      /* For Search  and pagination */
+      dom: "\n            <'row'\n            <'col-sm-12 col-md-12'f>\n            >\n            <'row'\n            <'col-sm-12'tr>\n            >\n            <'row'\n            <'col-sm-12 col-md-6'l>\n            >\n            <'row'\n            <'col-sm-12 col-md-5'i>\n            <'col-sm-12 col-md-7'p>\n            >\n            ",
+
+      /* 
+            */
+      columnDefs: [{
+        targets: -1
+      }]
+    });
+  }
+};
+jQuery(document).ready(function () {
+  DatatablesAdvancedMultipleControls.init();
+});
 
 /***/ }),
 

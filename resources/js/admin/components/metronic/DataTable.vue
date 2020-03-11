@@ -42,7 +42,6 @@
                              <i  @click="edit(details[index],index)" data-toggle="modal" data-target="#m_modal_5"  class="fa fa-pen ml-15"></i>
                              <i @click="del(index)" class="fa fa-trash ml-15"></i>
                         </td>
-                        <td v-for="i in 4" :key="i" class="remove"></td>
                     </tr>
                 </tbody>
             </table>
@@ -91,5 +90,4 @@ methods:{
 .fa {cursor: pointer;}
 .fa-pen:hover{color: green;}
 .fa-trash:hover{color: red;}
-.remove{display: none;}
 </style>

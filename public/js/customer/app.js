@@ -263,7 +263,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     title: String,
@@ -1078,7 +1077,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n.ml-15{ margin-left: 15px;}\n.fa {cursor: pointer;}\n.fa-pen:hover{color: green;}\n.fa-trash:hover{color: red;}\n.remove{display: none;}\r\n", ""]);
+exports.push([module.i, "\n.ml-15{ margin-left: 15px;}\n.fa {cursor: pointer;}\n.fa-pen:hover{color: green;}\n.fa-trash:hover{color: red;}\r\n", ""]);
 
 // exports
 
@@ -19873,11 +19872,7 @@ var render = function() {
                         }
                       }
                     })
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(4, function(i) {
-                    return _c("td", { key: i, staticClass: "remove" })
-                  })
+                  ])
                 ],
                 2
               )
