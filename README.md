@@ -1,9 +1,6 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
-
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://travis-ci.org/laravel/framework"><img src="https://vuejs.org/images/logo.png" alt="Build Status"></a>
-
+ <img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400">
+  <img src="https://vuejs.org/images/logo.png" width="400">
 </p>
 
 ## About Laravel Mix
