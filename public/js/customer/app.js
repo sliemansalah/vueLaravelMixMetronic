@@ -521,18 +521,21 @@ var _ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
     },
     addNewCustomer: function addNewCustomer(data) {
       var skills_filter = this.skillsFilter(data.skills);
+      this.customers = localStorage.getItem('customers') ? JSON.parse(localStorage.getItem('customers')) : [];
+      var customerIndex = localStorage.getItem('customerIndex');
+      customerIndex ? customerIndex++ : customerIndex = 1;
       var customer_add = {
         data: {
-          id: 1,
+          id: customerIndex,
           name: data.name,
           age: data.age,
           email: data.email,
           skills: skills_filter
         }
       };
-      this.customers = localStorage.getItem('customers') ? JSON.parse(localStorage.getItem('customers')) : [];
       this.customers.push(customer_add);
       localStorage.setItem('customers', JSON.stringify(this.customers));
+      localStorage.setItem('customerIndex', customerIndex);
       this.details = this.customers;
       swal("Add Customer!", "Customer Added Successfully!", "success");
       this.$store.dispatch('initCustomers', this.customers);

@@ -15,18 +15,17 @@
 export default {
   data(){
     return{
-      customers:[],
+      customers:[]
     }
   },
   methods:{
     removeCustomer(index){
       this.customers.splice(index,1)
-      console.log(this.customers)
       localStorage.setItem('customers',JSON.stringify(this.customers))
     }
   },
   created(){
-    this.customers = JSON.parse(localStorage.getItem('customers'))
+    this.customers = JSON.parse(localStorage.getItem('customers')) || [];
   },
 }
 </script>

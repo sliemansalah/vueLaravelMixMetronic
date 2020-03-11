@@ -83,20 +83,24 @@ export default {
     },
     addNewCustomer(data){
        let skills_filter = this.skillsFilter(data.skills);
+        this.customers =  localStorage.getItem('customers') ?
+                  JSON.parse(localStorage.getItem('customers')) : 
+                  []
+        let customerIndex = localStorage.getItem('customerIndex')
+        customerIndex?customerIndex++:customerIndex=1  
        let customer_add = {
          data:{
-          id:1,
+          id:customerIndex,
           name:data.name,
           age:data.age,
           email:data.email,
           skills:skills_filter
          }
         };
-      this.customers =  localStorage.getItem('customers') ?
-                        JSON.parse(localStorage.getItem('customers')) : 
-                        []
+
         this.customers.push(customer_add)
         localStorage.setItem('customers',JSON.stringify(this.customers))
+        localStorage.setItem('customerIndex',customerIndex)
             this.details = this.customers
           swal("Add Customer!", "Customer Added Successfully!", "success")
           this.$store.dispatch('initCustomers',this.customers)
