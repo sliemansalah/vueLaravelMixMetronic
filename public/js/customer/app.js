@@ -991,6 +991,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   computed: {
     customersCount: function customersCount() {
@@ -21923,7 +21925,10 @@ var render = function() {
                 _c(
                   "li",
                   {
-                    staticClass: "m-menu__item m-menu__item--active",
+                    class:
+                      _vm.$route.path == "/"
+                        ? "m-menu__item m-menu__item--active"
+                        : "m-menu__item",
                     attrs: { "aria-haspopup": "true" }
                   },
                   [
@@ -21977,7 +21982,10 @@ var render = function() {
                         _c(
                           "li",
                           {
-                            staticClass: "m-menu__item",
+                            class:
+                              _vm.$route.path == "/customers"
+                                ? "m-menu__item m-menu__item--active"
+                                : "m-menu__item",
                             attrs: { "aria-haspopup": "true" }
                           },
                           [
