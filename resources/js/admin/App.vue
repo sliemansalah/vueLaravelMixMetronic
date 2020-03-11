@@ -514,7 +514,10 @@ components:{
   appHeader: Header,
   appFooter: Footer,
   sideMenu: SideMenu
-}
+},
+created(){
+    this.$store.dispatch('initCustomers');
+  }
 }
 </script>
 

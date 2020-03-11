@@ -65,11 +65,11 @@
 
 <script>
 export default {
-  data(){
-    return {
-      customersCount:JSON.parse(localStorage.getItem('customers')).length
-    }
-  }
+ computed: {
+            customersCount() {
+                return this.$store.getters.customersCount;
+            }
+        }
 };
 </script>
 

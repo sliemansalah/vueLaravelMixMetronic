@@ -71,7 +71,8 @@ export default {
                 this.customers.splice(id,1)
                 localStorage.setItem('customers',JSON.stringify(this.customers))
                 this.details = this.customers
-                swal("Customer Remove", "Customer was removed successfully!", "info");
+                swal("Customer Remove", "Customer was removed successfully!", "info")
+                 this.$store.dispatch('initCustomers',this.customers)
               }
             })
     },
@@ -98,6 +99,7 @@ export default {
         localStorage.setItem('customers',JSON.stringify(this.customers))
             this.details = this.customers
           swal("Add Customer!", "Customer Added Successfully!", "success")
+          this.$store.dispatch('initCustomers',this.customers)
     },
     updateCustomer(data){
   let skills_filter = this.skillsFilter(data.skills);
