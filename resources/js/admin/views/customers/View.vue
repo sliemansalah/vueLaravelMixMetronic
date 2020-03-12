@@ -27,6 +27,7 @@ export default {
       customerFormStatus:'add',
       customers:[],
       customerID:null,
+      local:false,
       rows:[
       {id:'id',value:'ID'},
       {id:'name',value:'Name'},
@@ -136,9 +137,16 @@ data=data.substring(0,data.length -1)
     }
   },
   mounted(){
-     this.customers =  localStorage.getItem('customers') ?
+     let local = localStorage.getItem('local')
+    local=='true'?this.local=true:this.local=false
+    console.log('local',this.local);
+    if(this.local){
+       this.customers =  localStorage.getItem('customers') ?
                         JSON.parse(localStorage.getItem('customers')) : 
                         []
+    }else {
+      
+    }
     this.details = this.customers
   }
 }
