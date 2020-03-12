@@ -59,6 +59,11 @@ props:{
     addBtnBgColor:String,
     addBtnColor:String,
 },
+mounted(){
+    jQuery(document).ready(function () {
+       DatatablesAdvancedMultipleControls.init()
+    });
+},
 computed:{
     bgStyle(){
         return {

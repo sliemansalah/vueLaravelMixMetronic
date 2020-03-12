@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Route;
 // })->where('any','.*');
 
 Route::get('/{any}', function () {
-    return view('admin/index');
+    return view('admin.index');
 })->where('any','.*');
 
 

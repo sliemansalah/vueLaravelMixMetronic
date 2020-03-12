@@ -272,6 +272,11 @@ __webpack_require__.r(__webpack_exports__);
     addBtnBgColor: String,
     addBtnColor: String
   },
+  mounted: function mounted() {
+    jQuery(document).ready(function () {
+      DatatablesAdvancedMultipleControls.init();
+    });
+  },
   computed: {
     bgStyle: function bgStyle() {
       return {
@@ -308,6 +313,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
 //
 //
 //
@@ -1083,7 +1091,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.fs-28{\r\n  font-size: 28px;\n}\r\n", ""]);
+exports.push([module.i, "\n.fs-28{\r\n  font-size: 28px;\n}\n.ml-15{\r\n  margin-left: 15px;\n}\r\n", ""]);
 
 // exports
 
@@ -19893,7 +19901,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
+  return _c("div", { staticClass: "row" }, [
     _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
       _c(
         "div",
@@ -19909,10 +19917,19 @@ var render = function() {
         ],
         1
       )
-    ])
+    ]),
+    _vm._v(" "),
+    _vm._m(0)
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "ml-15" }, [_c("h3", [_vm._v("Save By")])])
+  }
+]
 render._withStripped = true
 
 
@@ -38646,23 +38663,16 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var DatatablesAdvancedMultipleControls = {
+window.DatatablesAdvancedMultipleControls = {
   init: function init() {
     $("#m_table_1").DataTable({
-      /* For Search  and pagination */
-      dom: "\n            <'row'\n            <'col-sm-12 col-md-12'f>\n            >\n            <'row'\n            <'col-sm-12'tr>\n            >\n            <'row'\n            <'col-sm-12 col-md-6'l>\n            >\n            <'row'\n            <'col-sm-12 col-md-5'i>\n            <'col-sm-12 col-md-7'p>\n            >\n            ",
-
-      /* 
-            */
+      dom: "\n                <'row'\n                <'col-sm-12 col-md-12'f>\n                >\n                <'row'\n                <'col-sm-12'tr>\n                >\n                <'row'\n                <'col-sm-12 col-md-6'l>\n                >\n                <'row'\n                <'col-sm-12 col-md-5'i>\n                <'col-sm-12 col-md-7'p>\n                >\n                ",
       columnDefs: [{
         targets: -1
       }]
     });
   }
 };
-jQuery(document).ready(function () {
-  DatatablesAdvancedMultipleControls.init();
-});
 
 /***/ }),
 
@@ -39363,7 +39373,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\unifiedState\vueLaravelMixMetronic\resources\js\admin\app.js */"./resources/js/admin/app.js");
+module.exports = __webpack_require__(/*! E:\prev\unifiedState\vueLaravelMixMetronic\resources\js\admin\app.js */"./resources/js/admin/app.js");
 
 
 /***/ })
