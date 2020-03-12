@@ -36,7 +36,7 @@
         
     <!-- For DataTable -->
     <script src="{{asset('/')}}vendors/custom/datatables/datatables.bundle.js" type="text/javascript"></script>
-    <script src="vendors/custom/components/base/sweetalert2.js" type="text/javascript"></script>
+    <script src="{{asset('/')}}vendors/custom/components/base/sweetalert2.js" type="text/javascript"></script>
 
 		<script src="{{ mix('js/admin/app.js') }}"></script>
   </body>
