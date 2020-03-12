@@ -11,7 +11,7 @@ class Customers extends Controller
 {
     public function index(Request $request)
     {
-        return Customer::all();
+        return response()->json(['data'=>Customer::all(), 'recordsTotal' => Customer::query()->count()]);
     }
 
     public function create(Request $request)
