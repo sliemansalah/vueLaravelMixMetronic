@@ -323,45 +323,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      customersCount: 0,
-      local: true
+      customersCount: 0
     };
   },
-  methods: {
-    updateLocalSaveOption: function updateLocalSaveOption(val) {
-      localStorage.setItem('local', val);
-    }
-  },
   mounted: function mounted() {
-    var local = localStorage.getItem('local');
-
-    if (!local) {
-      localStorage.setItem('local', 'true');
-    }
-
-    local == 'true' ? this.local = true : this.local = false;
     var customers = localStorage.getItem('customers') ? JSON.parse(localStorage.getItem('customers')) : [];
     this.customersCount = customers.length;
     console.log(this.customersCount);
@@ -609,14 +577,7 @@ var _ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
     }
   },
   mounted: function mounted() {
-    var local = localStorage.getItem('local');
-    local == 'true' ? this.local = true : this.local = false;
-    console.log('local', this.local);
-
-    if (this.local) {
-      this.customers = localStorage.getItem('customers') ? JSON.parse(localStorage.getItem('customers')) : [];
-    } else {}
-
+    this.customers = localStorage.getItem('customers') ? JSON.parse(localStorage.getItem('customers')) : [];
     this.details = this.customers;
   }
 });
@@ -19954,50 +19915,6 @@ var render = function() {
         ],
         1
       )
-    ]),
-    _vm._v(" "),
-    _c("form", { staticClass: "ml-15" }, [
-      _c("div", { staticClass: "form-group" }, [
-        _c(
-          "label",
-          { staticClass: "form-control-label", attrs: { for: "save" } },
-          [_vm._v("Save:")]
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "m-form__group form-group" }, [
-          _c("label", { attrs: { for: "" } }, [_vm._v("Default Radios")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "m-radio-list" }, [
-            _c("label", { staticClass: "m-radio" }, [
-              _c("input", {
-                attrs: { type: "radio", name: "save" },
-                domProps: { checked: _vm.local },
-                on: {
-                  click: function($event) {
-                    return _vm.updateLocalSaveOption("true")
-                  }
-                }
-              }),
-              _vm._v(" LocalStorage\n                          "),
-              _c("span")
-            ]),
-            _vm._v(" "),
-            _c("label", { staticClass: "m-radio" }, [
-              _c("input", {
-                attrs: { type: "radio", name: "save" },
-                domProps: { checked: !_vm.local },
-                on: {
-                  click: function($event) {
-                    return _vm.updateLocalSaveOption("false")
-                  }
-                }
-              }),
-              _vm._v(" API\n                          "),
-              _c("span")
-            ])
-          ])
-        ])
-      ])
     ])
   ])
 }

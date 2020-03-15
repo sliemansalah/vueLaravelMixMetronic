@@ -137,16 +137,9 @@ data=data.substring(0,data.length -1)
     }
   },
   mounted(){
-     let local = localStorage.getItem('local')
-    local=='true'?this.local=true:this.local=false
-    console.log('local',this.local);
-    if(this.local){
-       this.customers =  localStorage.getItem('customers') ?
+     this.customers =  localStorage.getItem('customers') ?
                         JSON.parse(localStorage.getItem('customers')) : 
                         []
-    }else {
-      
-    }
     this.details = this.customers
   }
 }
